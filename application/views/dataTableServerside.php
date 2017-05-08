@@ -22,7 +22,7 @@
 <div class="col-md-12 col-sm-12 col-xs-12 ">
     <h3 class="text-center">DataTable with Serverside in Codeigniter</h3>                       
     <form id="form-filter">  
-
+ 
 					<div class="form-group">
                  
                         <div class="col-sm-3">                          
@@ -105,7 +105,7 @@
         // Load data for the table's content from an Ajax source
         "ajax": {
             "url": "<?php echo base_url('index.php/admin_controller/ajax_load_posts')?>",
-            "type": "POST",  
+            "type": "POST",    
                "data": function ( data ) {
                 data.user_name = $('#user_name').val(); 
             }  
