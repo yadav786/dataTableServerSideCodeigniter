@@ -104,12 +104,12 @@
         "order": [], //Initial no order.   
         // Load data for the table's content from an Ajax source
         "ajax": {
-            "url": "<?php echo base_url('index.php/admin_controller/ajax_load_posts')?>",
-            "type": "POST",    
+            "url": "<?php echo base_url('admin_controller/ajax_load_posts')?>",
+            "type": "POST",      
                "data": function ( data ) {
                 data.user_name = $('#user_name').val(); 
             }  
-        },
+        },   
   
         //Set column definition initialisation properties.
 
